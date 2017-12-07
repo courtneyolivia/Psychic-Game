@@ -1,0 +1,16 @@
+.wrapper {
+    dislay: static;
+    height: 500px;
+    width: 500px;
+    color: red;
+
+}
+
+body {
+    background-color: #f1b7b7
+}
+
+img {
+    width: 400px;
+    height: 300px;
+}
