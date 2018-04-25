@@ -6,27 +6,50 @@
     <title>The Psychic Game</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 </head>
 
 <body>
-    <div class="wrapper">
-        
-   
-        <h1>The Psychic Game</h1><br/>
-       
-
-        <h3>Try to guess the right letter! Any letter from A - Z.</h3><br/>
-
-        <img src="assets/images/fortune.jpg">
-       
+    <h1>Welcome to the Psychic Game</h1>
+    <div id="content">
+        <img src="assets/images/crystalball.png">
     </div>
-   
 
-  
+    <div id="buttons"></div>
+    <button id="clear">clear</button>
 
+    <div id="box1">
+        <h1>Do you dare?</h1>
+        <h2>Guess what letter I am thinking of...</h2>
+        <h3>Try to guess the right letter! Any letter from A - Z.</h3>
+    </div>
+    <div id="box2">
+        <!-- This is where we will have the win counter in HTML. It initially shows 0  -->
+        <p>Wins:
+            <span id="wins">0</span>
+        </p>
 
+        <!-- This is where we will have the loss counter in HTML. It initially shows 0 -->
+        <p>Losses:
+            <span id="losses">0</span>
+        </p>
+
+        <!-- This is where we will post the guessesLeft. Initially nothing is shown. -->
+        <p>Guesses Left:
+            <span id="guesses-left"></span>
+        </p>
+
+        <!-- This is where we will post the guessesSoFar. Initially nothing is shown. -->
+        <p>Your Guesses so far:
+            <span id="guesses-so-far"></span>
+        </p>
+
+    </div>
+
+    <div id="footer">
+        &copy; copyright 2017 Courtney Williams
+    </div>
     <script type="text/javascript" src="assets/javascript/game.js"></script>
-    
-
 </body>
+
 </html>
